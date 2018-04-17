@@ -1,0 +1,55 @@
+
+	<h1 style="display:none;">{{title}}</h1>
+	<div class="container-fluid darkBg login-container">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-md-offset-4 col-sm-10 col-sm-offset-1">
+					<form class="loginForm" action="/loginuser" method="POST">
+						<div class="logoholder">
+							<h1 class="alnCenter"><img src="/images/logo-white3.png"></h1>
+							{{#if error}}
+
+							<div class="alert alert-danger">{{error}}</div>
+
+							{{/if}}
+
+							<div class="form-group label-floating">
+							<label class="control-label" for="email">Email</label>
+							<input class="form-control" id="email" type="email" name="email" required="required" autocomplete="off">
+							<p class="help-block">Email address used to sign up</p>
+							</div>
+
+							<div class="form-group label-floating">
+								<label class="control-label" for="focusedInput2">Password</label>
+								<input class="form-control" id="focusedInput2" type="password" autocomplete="off" name="password" required="required">
+								<p class="help-block">Your password set using sign up</p>
+							</div>
+
+							<p>&nbsp;</p>
+
+							<button href="javascript:void(0)" class="btn btn-raised btn-primary btn-lg btn-block">Log In</button>
+
+							<p class="alnCenter"><a href="#" >Forgot password?</a></p>
+
+							
+
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>   
+
+	<div class="container-fluid darkBg">
+	<footer class="alnCenter">
+		<p>
+
+		</p>
+		<a href="#">sitemap</a>
+		<a href="#">about</a>
+		<a href="http://prdesigns.co">Copyright © 2017 PrDesigns</a>
+	</footer>
+</div>
+
+
+	

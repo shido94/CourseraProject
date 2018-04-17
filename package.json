@@ -1,0 +1,27 @@
+{
+  "name": "myappointment",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "bootstrap": "^3.3.7",
+    "bootstrap-material-design": "^0.5.10",
+    "compression": "^1.6.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "express-session": "^1.15.2",
+    "handlebars-helper": "0.0.12",
+    "handlebars-helper-equal": "^1.0.0",
+    "hbs": "~4.0.1",
+    "jquery": "^3.2.1",
+    "mongoose": "^4.9.8",
+    "morgan": "~1.8.1",
+    "nodemailer": "^4.0.1",
+    "serve-favicon": "~2.4.2",
+    "xoauth2": "^1.2.0"
+  }
+}
